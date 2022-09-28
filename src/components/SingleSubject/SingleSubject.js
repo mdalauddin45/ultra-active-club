@@ -1,4 +1,5 @@
 import React from 'react';
+import Details from '../Details/Details';
 import './SingleSubject.css';
 
 const SingleSubject = ({sub}) => {

@@ -34,7 +34,7 @@ const Details = () => {
 <div className='time'>
     <p>Break time</p>
 </div>
-<button className='add-btn'>Activity Completed</button>
+<button className='complete-btn'>Activity Completed</button>
         </div>
     );
 };

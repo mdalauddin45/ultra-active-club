@@ -38,5 +38,26 @@
     margin-left:10px ;
 }
 .time{
-
+ background-color: #eee;
+ height: 65px;
+ border-radius: 10px;
+ margin: 10px;
+ padding: 10px;
+ font-size: 20px;
+ font-weight: 700;
+ margin-top: 25px;
+}
+.complete-btn{
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    width: 95%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 30px;
+    background-color: rgb(60, 60, 223);
+    color: white;
+   height: 60px;
 }
