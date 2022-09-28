@@ -1,3 +1,6 @@
+.study-container{
+    margin: 100px;
+}
 .sub-containers{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

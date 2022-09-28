@@ -12,7 +12,7 @@ const Subjects = () => {
  },[])
 
     return (
-        <div>
+        <div className='study-container'>
               <h1>STUDY ACTIVE CLUB</h1>
         <h3>Select today's subject</h3>
        <div className='sub-containers'>
