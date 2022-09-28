@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Subjects from './components/Subjects/Subjects';
 
 function App() {
   return (
-    <div className="App">
-    <h1>Study Active Club</h1>
+    <div className="main-containers">
+    <Subjects></Subjects>
     </div>
   );
 }

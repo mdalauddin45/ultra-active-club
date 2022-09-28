@@ -1,0 +1,31 @@
+.subject-card{
+background-color: white;
+margin: 20px;
+border-radius: 10px;
+    width: 350px;
+}
+.subject-card img{
+ width: 330px;
+ height: 200px;
+ border-radius: 10px;
+ margin-bottom: 0px;
+ padding-bottom: 0px;
+margin-left: 10px;
+margin-top: 10px;
+}
+.subject-card h1,p{
+    margin-left: 10px;
+}
+.add-btn{
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    width: 95%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 30px;
+    background-color: rgb(60, 60, 223);
+    color: white;
+
+}
