@@ -1,9 +1,42 @@
+.all-details{
+    background-color: white;
+
+}
 .details{
     display: flex;
-    background-color: white;
 }
 .my-details img{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.my-name{
+    margin: 0px;
+    padding: 0px;
+}
+.wha{
+    display: flex;
+    background-color: #eee;
+    border-radius: 10px;
+    margin: 20px;
+}
+.five-btn{
+    display: flex;
+    margin-left: 20px;
+}
+.break{
+    margin-left: 20px;
+}
+.five-btn button  {
+       border: none;
+    font-size: 17px;
+    border-radius: 50%;
+    padding: 15px;
+    margin-left:10px ;
+}
+.time{
+
 }
