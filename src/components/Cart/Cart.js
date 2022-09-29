@@ -4,7 +4,7 @@ import Swal from 'sweetalert2';
 
 const Cart = ({times}) => {
     const [totalBreak,setTotalBreak]=useState('0');
-    // const breakTime= ['10','20','30','40','50'];
+    const breakTime= ['10','20','30','40','50'];
 
 // Exercise time 
     let total = 0;
@@ -16,20 +16,19 @@ const Cart = ({times}) => {
 
   // Break Time
    const secondsBtn1=()=>{
-      setTotalBreak(10);
+      setTotalBreak(breakTime[0]); 
    }
    const secondsBtn2=()=>{
- setTotalBreak(20);
-
+    setTotalBreak(breakTime[1]); 
    }
    const secondsBtn3=()=>{
- setTotalBreak(30);
+    setTotalBreak(breakTime[2]); 
    }
    const secondsBtn4=()=>{
- setTotalBreak(40);
+    setTotalBreak(breakTime[3]); 
    }
    const secondsBtn5=()=>{
- setTotalBreak(50);
+    setTotalBreak(breakTime[4]); 
    }
 
 
