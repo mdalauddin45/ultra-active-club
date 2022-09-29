@@ -31,6 +31,9 @@ const Cart = ({times}) => {
    const secondsBtn5=()=>{
  setTotalBreak(50);
    }
+
+
+   // sweetAlert
    const activityBtn=()=>{
     Swal.fire(
       'congratulations!',
@@ -38,6 +41,8 @@ const Cart = ({times}) => {
       'success'
     )
    }
+
+   
     return (
        <div>
          <div className='details'>
