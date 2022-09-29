@@ -1,19 +1,19 @@
-.subject-card{
-background-color: white;
+.card{
+    background-color: white;
 margin: 20px;
 border-radius: 10px;
     width: 350px;
 }
-.subject-card img{
- width: 330px;
- height: 200px;
- border-radius: 10px;
- margin-bottom: 0px;
- padding-bottom: 0px;
-margin-left: 10px;
-margin-top: 10px;
+.card img{
+    width: 330px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+   margin-left: 10px;
+   margin-top: 10px; 
 }
-.subject-card h1,p{
+.card h1,p{
     margin-left: 10px;
 }
 .add-btn{

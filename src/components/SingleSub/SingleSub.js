@@ -1,12 +1,15 @@
 import React from 'react';
-import Details from '../Details/Details';
-import './SingleSubject.css';
+import './SingleSub.css'
 
-const SingleSubject = ({sub}) => {
-    console.log(sub);
+const SingleSub = ({sub}) => {
     const {img,name,description,age,time}= sub;
+
+    // const handelAddToList=()=>{
+    //     const newTime = [...times,sub];
+    //     setTimes(newTime);
+    //  }
     return (
-        <div className='subject-card'>
+        <div className='card'>
             <img src={img} alt="" />
             <h1>{name}</h1>
             <p>{description} </p>
@@ -17,4 +20,4 @@ const SingleSubject = ({sub}) => {
     );
 };
 
-export default SingleSubject;
+export default SingleSub;
