@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Home from './components/Home/Home';
-import Quenstion from './components/Question/Question';
+import Question from './components/Question/Question';
+
 
 
 
@@ -9,7 +10,7 @@ function App() {
   return (
     <div>
       <Home></Home>
-     <Quenstion></Quenstion>
+      <Question></Question>
     </div>
   );
 }
