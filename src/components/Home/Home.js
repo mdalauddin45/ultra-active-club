@@ -15,16 +15,23 @@ const Home = () => {
     return (
         <div className='Home-container'>
             <div className='all-subject-container'>
-<div className="subject-container">
+<div>
+    <div className='text-container'>
+      <img src="../Image/logo.jpg" alt="" />
+        <h2>STUDY ACTIVE CLUB</h2>
+      <h4>Select today’s study books</h4>
+    </div>
+    <div className="subject-container">
     <Subject 
     subject={subject}
     times={times}
     setTimes={setTimes}
      ></Subject>
+    </div>
+   
 </div>
             </div>
             <div className='AddToList-container'>
-<h1>This cart</h1>
 <Cart
 times={times}
 ></Cart>
