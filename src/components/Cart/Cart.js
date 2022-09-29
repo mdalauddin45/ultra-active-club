@@ -1,42 +1,40 @@
 import React, { useState } from 'react';
-import './Cart.css'
-import Swal from 'sweetalert2'
+import './Cart.css';
+import Swal from 'sweetalert2';
 
 const Cart = ({times}) => {
-    const [totalBreak,setTotalBreak]=useState('000');
-    const breakTime= ['10','20','30','40','50'];
+    const [totalBreak,setTotalBreak]=useState('0');
+    // const breakTime= ['10','20','30','40','50'];
 
+// Exercise time 
     let total = 0;
    for(const time of times){
      total = total + time;
     //  console.log(total);
    }
-   const secondsBtn1=()=>{
-    // setTotalBreak(breakTime[0]);
-    const info ={
-      breakTime:10
-    }
-    
+   
 
-    
+  // Break Time
+   const secondsBtn1=()=>{
+      setTotalBreak(10);
    }
    const secondsBtn2=()=>{
- setTotalBreak(breakTime[1]);
+ setTotalBreak(20);
 
    }
    const secondsBtn3=()=>{
- setTotalBreak(breakTime[2]);
+ setTotalBreak(30);
    }
    const secondsBtn4=()=>{
- setTotalBreak(breakTime[3]);
+ setTotalBreak(40);
    }
    const secondsBtn5=()=>{
- setTotalBreak(breakTime[4]);
+ setTotalBreak(50);
    }
    const activityBtn=()=>{
     Swal.fire(
       'congratulations!',
-      'You clicked the button!',
+      'Activity Completed!',
       'success'
     )
    }
@@ -51,9 +49,9 @@ const Cart = ({times}) => {
         </div>
         </div>
         <div className='wha'>
-            <p>75 kg <br /> weight</p>
-            <p>5 <br /> Height</p>
-            <p>21 yrs <br /> Age</p>
+            <p><span className='wha-text'>75</span> kg <br /> weight</p>
+            <p><span className='wha-text'>5</span> <br /> Height</p>
+            <p><span className='wha-text'>21</span> yrs <br /> Age</p>
         </div>
 <h3 className='break'>Add A Break
 </h3>

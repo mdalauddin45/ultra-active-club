@@ -18,6 +18,13 @@
     background-color: #eee;
     border-radius: 10px;
     margin: 20px;
+    text-align: center;
+    
+}
+.wha-text{
+ font-size: 30px;
+ font-weight: 700;
+ margin-left: 20px;
 }
 .five-btn{
     display: flex;

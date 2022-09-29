@@ -2,9 +2,53 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
+.logo{
+    display: flex;
+    margin-top: 20px;
+}
+.logo img{
+ width: 50px;
+ height: 50px;
+ margin-top: 20px;
+}
+.logo h2{
+    margin-top: 30px;
+    margin-left: 10px;
+}
 .AddToList-container{
     background-color: white;
 }
 .text-container{
     margin-left: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .Home-container{
+        display: block;
+    }
+    .subject-container{
+        margin-left: 50px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .AddToList-container{
+        width: 95%;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+    
+}
+@media screen and (max-width: 1100px) {
+    .Home-container{
+        display: block;
+    }
+    .subject-container{
+        /* margin-left: 0px; */
+    }
+    .AddToList-container{
+        width: 98%;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+    
 }
