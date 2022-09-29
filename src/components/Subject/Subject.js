@@ -2,8 +2,8 @@
 import SingleSub from '../SingleSub/SingleSub';
 import './Subject.css'
 
-const Subject = ({subject}) => {
-    console.log(subject);
+const Subject = ({subject,times,setTimes}) => {
+    // console.log(subject);
 
     return (
         <div className='sub-card-containers'>
@@ -12,6 +12,8 @@ const Subject = ({subject}) => {
                     <SingleSub 
                     key={sub.id}
                     sub={sub}
+                    times={times}
+                    setTimes={setTimes}
                     ></SingleSub>
                     )
             }
