@@ -42,7 +42,7 @@ const Cart = ({times}) => {
     )
    }
 
-   
+
     return (
        <div>
          <div className='details'>
@@ -61,18 +61,18 @@ const Cart = ({times}) => {
 <h3 className='break'>Add A Break
 </h3>
         <div className='five-btn'>
-    <button onClick={secondsBtn1}>10s</button>
-    <button onClick={secondsBtn2}>20s</button>
-    <button onClick={secondsBtn3}>30s</button>
-    <button onClick={secondsBtn4}>40s</button>
-    <button onClick={secondsBtn5}>50s</button>
+    <button onClick={secondsBtn1}>10m</button>
+    <button onClick={secondsBtn2}>20m</button>
+    <button onClick={secondsBtn3}>30m</button>
+    <button onClick={secondsBtn4}>40m</button>
+    <button onClick={secondsBtn5}>50m</button>
 </div>
 <h3 className='break'>Exercise Details</h3>
          <div  className='time'>
-            <h2>Exercise time: {total} seconds</h2>
+            <h2>Exercise time: {total} minutes</h2>
         </div>
         <div className='time'>
-            <h2>Break time: {totalBreak} seconds</h2>
+            <h2>Break time: {totalBreak} minutes</h2>
         </div>
         <button onClick={activityBtn} className='complete-btn'>Activity Completed</button>
        </div>

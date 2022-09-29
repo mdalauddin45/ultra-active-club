@@ -14,8 +14,8 @@ const SingleSub = ({sub,times,setTimes}) => {
             <img src={img} alt="" />
             <h1>{name}</h1>
             <p>{description} </p>
-            <p>For Age:{age} </p>
-            <p>Time Required:{time} </p>
+            <p>Page: {age} </p>
+            <p>Time Required: {time} minutes</p>
  <button onClick={handelAddToList} className='add-btn'>Add to list</button>
         </div>
     );
